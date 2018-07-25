@@ -18,7 +18,15 @@ float dot_product(vector<float> vector_one,
   return sum;
 }
 
-vector< vector<float> > matrix_multiplication()
+vector< vector<float> > matrix_multiplication(
+  vector< vector<float> > matrix1,
+  vector< vector<float> > matrix2) {
+
+  vector< vector<float> > multiplied;
+  vector<float> row_multiplied;
+
+  for (int rowA = 0; rowA < )
+}
 
 
 int main() {
