@@ -4,6 +4,20 @@
 #include <vector>
 using namespace std;
 
+float dot_product(vector<float> vector_one,
+                  vector<float> vector_two) {
+  vector<float> elements;
+  for (int i = 0; i < vector_one.size(); ++i) {
+    elements.push_back(vector_one[i] * vector_two[i]);
+  }
+
+  float sum = 0;
+  for (int i = 0; i < elements.size(); ++i) {
+    sum += elements[i];
+  }
+  return sum;
+}
+
 vector< vector<float> > matrix_multiplication()
 
 
